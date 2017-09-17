@@ -4,10 +4,6 @@ html {
 	box-sizing: border-box;
 }
 
-/*body {
-	position: relative;
-}*/
-
 html,body {
 	margin: 0;
 	padding: 0;
@@ -43,6 +39,11 @@ a {
 	text-align: right
 }
 
+p {
+	margin-bottom: 0.5px;
+	margin-top: 0.5px;
+}
+
 .date {
 	font-weight: bold;
 }
@@ -51,8 +52,12 @@ ul {
   list-style-type: none;
 }
 
-.presentation li:before {
+.presentation dt:before {
 	content: "\3E \0020";
+}
+
+dl {
+	padding-left: 40px;
 }
 
 ul#socialMediaIcons li {
