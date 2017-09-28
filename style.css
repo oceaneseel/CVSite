@@ -62,12 +62,12 @@ ul {
   list-style-type: none;
 }
 
-.presentation dt:before {
-	content: "\3E \0020";
-}
-
 dl {
 	padding-left: 40px;
+}
+
+dd + dt, dt + dt {
+	padding-top: 10px;
 }
 
 ul#socialMediaIcons li {
