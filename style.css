@@ -83,6 +83,7 @@ td h3 {
 table {
     margin-top: 0;
     padding-top: 0;
+	border-collapse: collapse;
 }
 
 ul.skills {
