@@ -37,4 +37,4 @@ new Vue({ i18n,
 			console.log(i18n.locale);
 		}
 	}
-}).$mount('#app')
+}).$mount('#language')

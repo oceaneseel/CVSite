@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Océane Seel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="google-site-verification" content="LWD-AdHrpyjEwiZ37vjOodKITaLvv19kMMTsyFF7BEE" />
+		<link rel="stylesheet" href="styleTmp.css" />
+		<link rel="icon" href="images/logo_transparent.png">
+	</head>
+	<body>
+		<div id="language">
+			<header>
+				<a id="proposedLanguage" v-on:click="reinit">{{ proposedLanguage }}</a>
+				<img id="avatar" src="images/avatar.jpg"/>
+				<div id="title">
+					<h1> OCEANE SEEL</h1>
+					<h3>Software engineer</h3>
+				</div>
+			</header>
+			<section id="main">
+				<section id="general">
+					<p>Rue Chafour 20, 4801 Stembert, Belgique</p>
+					<p>+32 494 90 20 03</p>
+					<p><a href="mailto: oceane.seel@hotmail.com">oceane.seel@hotmail.com</a></p>
+					<p>Née à Verviers le 18 novembre 1994</p>
+					<p>Permis A</p>
+				</section>
+				<section class="presentation">
+					<h2>Expériences</h2>
+					<dl>
+						<dt>2016-présent > EVS Broadcast Equipment > <span class="important">Software engineer</span></dt>
+						<dt>2016 > EVS Broadcast Equipment > <span class="important">Stagiaire</span></dt>
+						<dd>Travail de fin d'étude : <i>"Analyse de base de données en .NET pour la détection d'anomalies dans des robots logiciels"</i></dd>
+						<dt>2015 > ENSIVAL-MORET > <span class="important">Job d'étudiante au service IT</span></dt>
+						<dd>Configuration d'ordinateurs, gestion de tickets de départ, helpdesk</dd>
+						<dt>2014-2015 > HEPL Seraing > <span class="important">Tutrice d'une élève</span></dt>
+					</dl>
+				</section>
+				<section class="presentation">
+					<h2>Compétences</h2>
+					<table>
+						<tr>
+							<td>
+								<ul class="skills">
+									<h3>Technologies</h3>
+									<li>C# .NET</li>
+									<li>Pascal</li>
+									<li>Java</li>
+									<li>C++</li>
+								</ul>
+							</td>
+							<td>
+								<ul class="skills">
+									<h3>Automation</h3>
+									<li>Tests unitaires</li>
+									<li>Intégration continue</li>
+									<li>TeamCity</li>
+								</ul>
+							</td>
+							<td>
+								<ul class="skills">
+									<h3>Bases de données</h3>
+									<li>Microsoft SQL Server</li>
+									<li>Oracle</li>
+								</ul>
+							</td>
+							<td>
+								<ul class="skills">
+									<h3>IDE</h3>
+									<li>Visual Studio</li>
+									<li>Netbeans</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<ul class="skills">
+									<h3>Méthodologie</h3>
+									<li>Agile</li>
+									<li>Scrum</li>
+								</ul>
+							</td>
+							<td>
+								<ul class="skills">
+									<h3>Outils</h3>
+									<li>Jira</li>
+									<li>SVN</li>
+									<li>Git</li>
+									<li>Tortoise</li>
+								</ul>
+							</td>
+							<td>
+								<ul class="skills">
+									<h3>Langues</h3>
+									<li>Français : langue maternelle</li>
+									<li>Anglais : maîtrise moyenne</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</section>
+				<section class="presentation">
+					<h2>Formation</h2>
+					<dl>
+						<dt>2017-2020 (espéré) > <span class="important">Master en sciences de gestion (H.D.)</span> > Université de Liège (HEC-ULg)</dt>
+						<dt>2013-2016 > <span class="important">Bachelier en informatique de gestion</span> > HEPL Seraing (Inpres)</dt>
+						<dd>Diplôme obtenu avec Grande Distinction</dd>
+						<dt>2012-2013 > <span class="important">1ère année de bachelier de transition en sciences industrielles</span> > HELMo Gramme</dt>
+						<dt>2006-2012 > <span class="important">Etudes secondaires générales</span> > SFX2 (Verviers)</dt>
+						<dd>CESS obtenu, Math (6) - Sciences (6)</dd>
+					</dl>
+				</section>
+				<section class="presentation">
+					<h2>Centres d'intérêt</h2>
+					<dl>
+						<dt>Candidate membre de la <span class="important">JCI</span> (Junior Chamber International)</dt>
+						<dt><span class="important">Scoutisme</span></dt>
+						<dd>> 10 ans dont 4 en tant qu'animatrice</dd>
+						<dd>> Formation d'animatrice reconnue par la GCB et la fédération Wallonie-Bruxelles</dd>
+						<dd>> Organisation de deux éditions d'un festival de musique local</dd>
+					</dl>
+				</section>
+			</section>
+			<footer id="footer">
+				<ul id="socialMediaIcons">
+					<li><a href="mailto: oceane.seel@hotmail.com"><img src="images/mail.png" alt="Mail" /></a></li>
+					<li><a href="https://www.linkedin.com/in/oceaneseel"><img src="images/linkedin.png" alt="Linkedin" /></a></li>
+					<li><a href="https://github.com/oceaneseel"><img src="images/github.png" alt="Github" /></a></li>
+					<li><a href="http://facebook.com/oceane.seel"><img src="images/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="https://www.instagram.com/oceaneseel"><img src="images/instagram.png" alt="Instagram" /></a></li>
+				</ul>
+				<ul id="copyright">
+					<li>&copy; Océane Seel</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+	<script src="languageChoice.js"></script>
+</html>

@@ -1,0 +1,130 @@
+html {
+	font-family: "century gothic", Arial, sans-serif;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+html,body, table {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1,h2,h3 {
+	font-weight: normal;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	right: 0;
+	top: 0;
+	left: 0;
+	background-color: #efefef;
+	text-align: center;
+}
+
+#title {
+	overflow: hidden;
+	text-align: center;
+}
+
+#proposedLanguage {
+	display: inline-block;
+	float: right;
+	margin-left: 6%;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 6%;
+	text-decoration: underline;
+}
+
+#avatar {
+	width: 120px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 6%;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1%;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#main {
+	margin-top : 2rem;
+	margin-bottom : 2rem;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+#general {
+	text-align: right
+}
+
+p {
+	margin-bottom: 0.5px;
+	margin-top: 0.5px;
+}
+
+.important {
+	font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+dl {
+	padding-left: 40px;
+}
+
+dd + dt, dt + dt {
+	padding-top: 10px;
+}
+
+td {
+	vertical-align: text-top;
+}
+
+td h3 {
+	font-weight: bold;
+}
+
+table {
+    margin-top: 0;
+    padding-top: 0;
+	border-collapse: collapse;
+}
+
+ul.skills {
+	margin-bottom: 0;
+	margin-top : 0;
+}
+
+ul#socialMediaIcons li {
+	display: inline;
+}
+
+ul#socialMediaIcons img {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #efefef;
+	text-align: center;
+}
